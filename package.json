@@ -1,0 +1,35 @@
+{
+  "name": "graphqlsampley",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-graphql": "^0.9.0",
+    "@types/node": "^18.14.0",
+    "apollo-server": "^3.11.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.20",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "rxjs-compat": "^6.6.7",
+    "sequelize": "^6.29.2",
+    "sqlite3": "^5.1.4",
+    "start": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/pg": "^8.6.6",
+    "@types/uuid": "^9.0.1",
+    "sequelize-cli": "^6.6.0"
+  }
+}
